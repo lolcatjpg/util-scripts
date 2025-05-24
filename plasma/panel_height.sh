@@ -4,8 +4,8 @@
 print_usage() {
     cat <<EOF >&2
 usage:
-    $0 -s [width]  -- set panel width
-    $0 -r          -- reset panel width
+    $0 -s [width]  -- set panel height
+    $0 -r          -- reset panel height
 EOF
 exit 2
 }
