@@ -1,0 +1,15 @@
+# systemd service for watch_tablet
+# -> https://github.com/alesya-h/linux_detect_tablet_mode
+
+[Unit]
+Description=watch_tablet
+
+[Service]
+Type=simple
+Restart=on-failure
+RestartSec=1
+ExecStart=watch_tablet
+
+[Install]
+WantedBy=default.target
+
